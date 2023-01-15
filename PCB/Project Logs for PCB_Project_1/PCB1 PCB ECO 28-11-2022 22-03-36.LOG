@@ -1,0 +1,23 @@
+Added Component: Designator=U1(DIP794W45P254L2692H508Q20)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "MSP430G2553IN20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "PDIP-20 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/MSP430G2553IN20/Texas%20Instruments/view-part/46372/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetP2_1 Pin=U1-1
+Added Pin To Net: NetName=NetR2_2 Pin=U1-2
+Added Pin To Net: NetName=NetP2_4 Pin=U1-3
+Added Pin To Net: NetName=NetP2_5 Pin=U1-4
+Added Pin To Net: NetName=NetR3_2 Pin=U1-5
+Added Pin To Net: NetName=NetU1_6 Pin=U1-6
+Added Pin To Net: NetName=NetU1_7 Pin=U1-7
+Added Pin To Net: NetName=NetR6_2 Pin=U1-8
+Added Pin To Net: NetName=NetU1_14 Pin=U1-14
+Added Pin To Net: NetName=NetU1_15 Pin=U1-15
+Added Pin To Net: NetName=NetR1_2 Pin=U1-16
+Added Pin To Net: NetName=NetU1_18 Pin=U1-18
+Added Pin To Net: NetName=NetU1_19 Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-20
+Added Member To Class: ClassName=MAASTER Member=Component U1 MSP430G2553IN20

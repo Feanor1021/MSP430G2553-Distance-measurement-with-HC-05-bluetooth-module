@@ -1,0 +1,30 @@
+#Generating source browse information for project neww
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.5_3\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.5_3\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.5_3\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build LCD.pbi : index LCD.xcl
+build libft.pbi : index libft.xcl
+build main.pbi : index main.xcl
+build muhtas1.pbi : index muhtas1.xcl
+build neww.pbd : link LCD.pbi libft.pbi main.pbi muhtas1.pbi
+build neww.pbw : browsedata neww.pbd
+
+
