@@ -1,5 +1,0 @@
-lcd_msp.pbi: C:\Users\furka\Desktop\new\lcd_msp.c \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5_3\430\inc\io430.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5_3\430\inc/io430g2553.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5_3\430\inc/intrinsics.h \
-  C:\Users\furka\Desktop\new/lcd_msp.h
